@@ -41,9 +41,34 @@ HINT: you need to write several if statements for each possible text combination
 */
 
 function redirect() {
-	if (//fill in your if statement here **ADD CODE HERE**
+	if (option1Selected==='Breakfast'&& option2Selected==='New York')//fill in your if statement here **ADD CODE HERE**
 		) {
 		location.href="www...";
 	}
-}
+	else if(option1Selected==='Lunch' && option2Selected==='New York'){
+		location.href="www...";
+	}
+	else if(option1Selected==='Dinner' && option2Selected==="New York"){
+		location.href="www...";
+	}
+	else if(option2Selected==="Boston" && option1Selected==="Breakfast"){
+		location.href="www...";
+	}
+	else if(option2Selected==="Boston" && option1Selected==="Lunch"){
+		location.href="www...";
+		}
+	else if(option2Selected==="Boston" && option1Selected==="Dinner"){
+		location.href="www...";
+	}
+	else if(option1Selected==="Breakfast" && option2Selected==="Chicago"){
+		location.href="www...";
+	}
+	else if(option1Selected="Lunch" && option2Selected==="Chicago"){
+		location.href="www...";
+	}
+	else if
+		(option1Selected==="Dinner" && option2Selected==="Chicago"){
+		location.href="www...";
+	}
+};
 
